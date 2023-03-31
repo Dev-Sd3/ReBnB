@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+header {
+    position: relative;
+    padding: 5px;
+    border: 1px solid rgba(211,211,211,0.7);
+    width: 100%;
+  }
+
+.RoundedDivStyle
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    width: 370px;
+    height: 40px;
+    box-shadow: 0 0 10px 1px #c2bcbc;
+    padding: 10px;
+  }
+
+li 
+{
+    margin: 5px;
+    display: inline-block;
+    border: centered 5px solid gray
+}
+
+
+span
+{
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+a
+{
+    text-decoration: none;
+    color: initial;
+}
+
+input
+{
+    margin: 20px;
+    font-size: 1.5em;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid rgba(211,211,211,100);
+    padding: 5px
+}
+
+textarea
+{
+    margin: 40px;
+    font-size: 1.5em;
+    width: 700px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid rgba(211,211,211,100);
+    padding: 5px
+}
+
+label
+{
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #FF5A60;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+button{
+    width: 120px;
+    height: 55px;
+    background-color: #FF5A60;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.4em;
+  }
+  
+  
